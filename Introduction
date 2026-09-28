@@ -1,0 +1,47 @@
+1) Machine Learning
+ML is the process of teaching computers to learn patterns from data and make decisions based on those patterns.
+
+ML = input & output -> logic (Model) (ML process with input data and output and produce logic )
+CS = input -> logic -> output (traditional computer science process).
+
+Types of ML.
+1) Supervised Learning (models learnined from labeled data).
+  -Classification Learning (categories/classes) e.g. - email = spam or not spam , loan = yes or no (must have fixed output)
+      -binary classification (output will be fixed eather yer or no , spam or not spam)
+      -multi class (e.g. a sentence "this is a bad day" - output will be negative,positive or neutral) multi - class output.
+  
+      Classificatio algorithm
+      -Linear Classifier
+      -Logistic Regression 
+      -K-Nearest Neighbour (KNN)
+      -Support Vector Machine (SVM)
+      -Random forest
+      -XG Boost
+
+  -Regression Learning (numerical output)
+    -predict numerical output (e.g. predict delivery time , stock price forecasting, predict weight with the help of height)
+
+    Regression algorithm
+    -Linear Regression
+    -Laso Regression
+    -Multi-Variate Regression
+
+2) Unsupervised Learning (models learned from unlabeled data).
+    -Divide data into multiple clusters/groups
+    -Data which are not in the groups/clusters called outliers/anomoly 
+  
+    Clustering Learning
+      -Divide data into multiple groups/clusters 
+    Association Learning
+      -Find relationship between Different entities (market basket analysis).
+      -Suggest item to buy. (e.g. buy milk + with bread suggest.)
+
+    Unsupervised Algorithm
+      -K-means Clustering
+      -Hierarchical Clustering
+      -PCA (Principal Component Analysis)
+      -DBSCAN
+  
+
+
+3) Reinforcement Learning
