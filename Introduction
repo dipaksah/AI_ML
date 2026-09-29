@@ -1,4 +1,4 @@
-1) Machine Learning
+1) Machine Learning (Statistical Learning)
 ML is the process of teaching computers to learn patterns from data and make decisions based on those patterns.
 
 ML = input & output -> logic (Model) (ML process with input data and output and produce logic )
@@ -10,7 +10,7 @@ Types of ML.
       -binary classification (output will be fixed eather yer or no , spam or not spam)
       -multi class (e.g. a sentence "this is a bad day" - output will be negative,positive or neutral) multi - class output.
   
-      Classificatio algorithm
+      Classification algorithm
       -Linear Classifier
       -Logistic Regression 
       -K-Nearest Neighbour (KNN)
@@ -45,3 +45,66 @@ Types of ML.
 
 
 3) Reinforcement Learning
+  -In RL, an agent learns to make decisions by interacting with an environment, receiving rewards for penalties for its actions.
+  -e.g. - training dogs by giving command like sit, up, run etc for rewards like foods meet.
+  -agent->action->environment->rewards/penalties
+
+RL algorithm
+  -Q-Learning
+  -Deep Q Networks (DQN)
+  -Policy Gradient methods
+  -Proximal Policy Optimization (PPO)
+
+Types of tools to use algorithms
+-Python
+-Jupyter 
+-NumPy
+-Pandas
+-Seaborn
+-Scikit Learn
+-MatPlotlib
+-XGBoost
+
+Deep Learning (Neural Network NN)
+  -input->weight/values...n->output
+  -every single neurons is making computation to generate output.
+  
+Forward and backward propagation concept.
+Forward - guss/predict
+
+backward - adjust / learning from mistakes
+  -output->hidden layers -> make adjustments in neuron (values/logic)-> output
+
+Tools used for neural networks.
+  -TensorFlow (made by goolge)
+  -PyTorch (made by meta)
+  -Kaggle (for data sheet)
+
+Types of Neural Networks Architecture.
+  1) Feed Forward Neural Network (FNN)
+      -input-logic/neurons/weight->output
+  2) Recurrent Neural Network (RNN)
+      -mostly used memory to go back into previous neurons logic to find another context (eg - raj is very happy) - in this happy is context but after that we need another context who is happy to find that we need to go back the previous neurons
+  3) Convolutional Neural Network (CNN)
+      -grid format 
+      -mostly used for read images for prediction
+  4) Transformers
+      -GPT -> generative pre-trained transformer
+      -
+
+generative AI
+  - GenAI is that part of AI from where we generate images, videos
+
+Text - GPT, Cloud AI , Gemini, LLaMA
+Images - Midjourney, DALL.E, Stable Diffusion
+Audio - ElevenLabs, Bark, MusicGen
+Video - Sora, Runway, HeyGen
+Code - Github Copilot, Code Llama, CodeWhisperer
+
+NLP & LLM
+
+Natural Language Processing - NLP is a field is a domain of Machine learning  where we deals with languages
+Large Language Model - large number of parameters and data
+  
+
+
